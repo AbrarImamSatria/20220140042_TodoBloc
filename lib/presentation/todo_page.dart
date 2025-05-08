@@ -13,6 +13,15 @@ class TodoPage extends StatelessWidget {
           padding: EdgeInsets.all(16.0),
           child: Column(children: [
             Text('Todo List'),
+            Row(
+              children: [
+                Column(
+                  children: [
+                    Text('Selected Date'),
+                  ],
+                )
+              ],
+            )
           ]
         ),
         ),
